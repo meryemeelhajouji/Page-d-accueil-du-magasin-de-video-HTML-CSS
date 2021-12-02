@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+   
+}
+
+.nav1 li {
+    display: inline-block;
+    align-items: center;
+    padding: 20px ;
+    list-style-type: none;
+   
+ 
+}
+
+
+ul  a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    text-decoration:none 
+}
+a:hover{
+   
+    text-decoration: underline;
+}

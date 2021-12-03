@@ -20,6 +20,23 @@ ul  a {
     font-weight: bolder;
     text-decoration:none 
 }
+.nav2 li {
+    display: inline-block;
+    align-items: center;
+    padding: 5px ;
+    list-style-type: none;
+   
+ 
+}
+
+ ol a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(34, 31, 31);
+    font-weight: bolder;
+    text-decoration:none 
+}
+
 a:hover{
    
     text-decoration: underline;

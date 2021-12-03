@@ -41,3 +41,16 @@ a:hover{
    
     text-decoration: underline;
 }
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+   /* text-align:center*/
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+

@@ -1,47 +1,57 @@
-body{
-    margin: 40px 190px 60px 200px;
+ .nav1{
+    text-align: center;
+
+ }
+
+ .logo{
+    
+    width: 100px;
+    height: 500px;
+ }
+ ul {
    
-}
-
-
-nav {
     display: flex;
+    list-style-type: none;
+ 
+ }
+ ul li {
+    padding: 6px;
+  
+ }
+
+.nav1 ul{
+    justify-content: center;
+    padding-left  : px;
+}
+ .nav1  ul li  a {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     color: black;
+     font-weight: bolder;
+     text-decoration:none
+     
    
-}
-
-
-.nav1 li {
-    display: inline-block;
-    padding: 20px ;
-}
-
-.nav1  ul li  a {
+ }
+ .nav2 ol{
+ padding-left  : 0px;
+ }
+ ol{
+    display: flex;
+    list-style-type: none;
+  
+ }
+ ol li {
+   
+    padding: 6px;
+ }
+ .nav2  ol li  a {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 12px;
     color: black;
     font-weight: bolder;
-    text-decoration:none  
-}
-
-.nav2 li {
-    display: inline-block;
-    padding: 5px ;
-   
-}
-
-.nav2 ol li a{
+    text-decoration:none
     
-    text-decoration:none ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: rgb(34, 31, 31);
-    font-weight: bolder;
-    
-}
-
-
-.nav1 img{
-    margin-top: 15px;
+  
 }
 .nav1 a:hover{
    
@@ -50,39 +60,72 @@ nav {
 .nav2 a:hover{
     text-decoration: underline;
 }
+
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
 
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 9px;
     color: rgb(2, 2, 2);
 }
 
-
 .carte{
-    border: 2px  black solid;
-    padding: 15px;
-    float: left;
-    margin: 7px;
-}
-.saving{
-    color: rgb(12, 168, 12);
+    border: 2px  solid black;
+
+margin-bottom: 5px;
 }
 
-.cartes{
-    display: flex; 
-   
+.carte img{
+    width: 100%;
 }
 
-.cartes img{
-    width : 200px; 
-    height:200px;
-}
-
-#copy{
-    text-align:center;
-}
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+       
+    }
+    .nav1 li {
+        display: inline-block;
+        padding: 20px ;
+    }
+    
+    .nav1  ul li  a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: black;
+        font-weight: bolder;
+        text-decoration:none  
+    }
+    .nav2 li {
+        display: inline-block;
+        padding: 5px ;
+       
+    }
+    
+    .nav2 ol li a{
+        
+        text-decoration:none ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: rgb(34, 31, 31);
+        font-weight: bolder;
+        
+    }
+     
+    h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: black;
+    
+    }
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        color: rgb(2, 2, 2);
+    }
+    
+  }

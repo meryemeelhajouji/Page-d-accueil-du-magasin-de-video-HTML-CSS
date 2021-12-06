@@ -128,4 +128,24 @@ margin-bottom: 5px;
         color: rgb(2, 2, 2);
     }
     
+.carte{
+    border: black solid;
+    padding: 15px;
+    float: left;
+    margin: 7px;
+}
+.saving{
+    color: rgb(12, 168, 12);
+}
+
+.cartes{
+    display: flex; 
+   
+}
+
+.cartes img{
+    width : 200px; 
+    height:200px;
+}
+    
   }

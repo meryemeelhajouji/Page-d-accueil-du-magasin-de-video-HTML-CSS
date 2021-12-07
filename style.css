@@ -5,9 +5,13 @@
 
  .logo{
     
-    width: 100px;
-    height: 500px;
+    width: 150px;
+    margin: auto;
+  
  }
+ .logo img
+ {width: 100%;
+}
  ul {
    
     display: flex;
@@ -92,6 +96,9 @@ margin-bottom: 5px;
         display: inline-block;
         padding: 20px ;
     }
+    .logo{
+        margin: -10px;
+    }
     
     .nav1  ul li  a {
         font-family: Arial, Helvetica, sans-serif;
@@ -148,4 +155,8 @@ margin-bottom: 5px;
     height:200px;
 }
     
+  }
+  @media print {
+      header
+      {display: none;}
   }
